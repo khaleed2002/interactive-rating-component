@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>interactive rating component</title>
+  </head>
+  <body>
+      <div class="design-container">
+        <!-- rating start-->
+        <div class="hello-box box">
+          <header class="header">
+            <div class="star-container">
+              <img class="star" src="./images/icon-star.svg" alt="star image" />
+            </div>
+          </header>
+          <div class="content">
+            <h2>How did we do?</h2>
+            <p>
+              Please let us know how we did with your support request. All
+              feedback is appreciated to help us improve our offering!
+            </p>
+            <ul>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+            </ul>
+          </div>
+          <footer>
+            <button>SUBMIT</button>
+          </footer>
+        </div>
+        <!-- rating end-->
+        <!--thank you start-->
+        <div class="thank-box box" style="display:none ;">
+          <div class="img-container">
+            <img src="./images/illustration-thank-you.svg" alt="thank you">
+          </div>
+          <div class="stars">
+            <div>You selected 4 out of 5</div>
+          </div>
+          <h2>Thank you!</h2>
+          <p>We appreciate you taking the time to give a rating.
+            If you ever need more support,don't hesitate to get in touch!
+          </p>
+        </div>
+        <!--thank you end-->
+      </div>
+      <script src="main.js"></script>
+  </body>
+</html>
